@@ -65,4 +65,5 @@ const emailSender = require('./util/emailSender');
     // Close browser regardless of success or failure
     if (browser) await browser.close();
   }
+  console.log('Script execution completed.');
 })();
